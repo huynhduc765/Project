@@ -2,13 +2,13 @@
 
 #namer {
  position: relative;
- max-width: 400px;
+ max-width: 300px;
  margin: 50px auto 50px;
 }
 
 #namer input {
  border: 0;
- border-bottom: 2px solid #1976D2;
+ border-bottom: 2px solid rgb(81, 119, 243);
  width: 100%;
  font-size: 30px;
  line-height: 35px;
@@ -16,92 +16,33 @@
  text-align: center;
  padding: 10px;
  background: transparent;
-	color: #BBDEFB;
+	color: brown;
 }
+
 
 
 
 #namer input:focus {
  outline: 0;
-	color: #BBDEFB;
+	color:brown;
 }
 
 #namer input::-webkit-input-placeholder {
- color: #1976D2;
+ color: rgb(207, 216, 224);
 }
 
 #namer input::-moz-placeholder {
- color: #1976D2;
+ color: rgb(207, 216, 224);
 }
 
 #namer input:-ms-input-placeholder {
- color: #1976D2;
+ color:rgb(207, 216, 224);
 }
 
 #namer input::placeholder {
- color: #1976D2;
+ color: rgb(207, 216, 224);
 }
 
-.namer-controls {
- position: relative;
- display: block;
- height: 30px;
- margin: 20px 0;
- text-align: center;
- opacity: 0.3;
- cursor: not-allowed;
-}
-
-.namer-controls.active {
- opacity: 1;
- cursor: pointer;
-}
-
-.namer-controls div {
- float: left;
- width: 33.33%;
-}
-
-.namer-controls div span {
- box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
- padding: 10px 5px;
- width: 95%;
- display: inline-block;
- margin-right: 5%;
- border-radius: 30px;
- font-size: 14px;
- text-transform: uppercase;
- letter-spacing: 0.3px;
-}
-
-.namer-controls div span:last-child {
- margin-right: 0;
-}
-
-.namer-controls div span.active {
- box-shadow: none;
- background-color: #1976D2;
- color: #fff;
-}
-
-#namer-input.serious input {
- letter-spacing: 2px;
- text-transform: uppercase;
- font-family: 'Andada', serif;
- font-weight: 500;
-}
-
-#namer-input.modern input {
- font-family: 'Raleway', sans-serif;
- text-transform: lowercase;
- font-weight: 300;
- letter-spacing: 10px;
-}
-
-#namer-input.cheeky input {
- font-family: 'Permanent Marker', cursive;
- font-size: 40px;
-}
 
 @-webkit-keyframes shaker {
  0% {
